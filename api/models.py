@@ -5,7 +5,7 @@ class Item(models.Model):
     middle_name = models.CharField(max_length=100, null=True)
     last_name = models.CharField(max_length=100, null=True)
     address = models.CharField(max_length=100, null=True)
-    phone = models.CharField(max_length=100, null=True)
+    phoneno = models.CharField(max_length=100, null=True)
     email = models.CharField(max_length=100, null=True)
     birthday = models.DateField(null=True)
     birthplace = models.CharField(max_length=100, null=True)
