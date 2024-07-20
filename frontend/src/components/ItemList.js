@@ -10,7 +10,7 @@ const ItemList = () => {
         middle_name: '',
         last_name: '',
         address: '',
-        phone: '',
+        phonno: '',
         email: '',
         birthday: '',
         birthplace: '',

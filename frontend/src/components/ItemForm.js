@@ -6,7 +6,7 @@ const ItemForm = ({ item, onSuccess }) => {
     const [middleName, setMiddleName] = useState('');
     const [lastName, setLastName] = useState('');
     const [address, setAddress] = useState('');
-    const [phone, setPhone] = useState('');
+    const [phoneno, setPhone] = useState('');
     const [email, setEmail] = useState('');
     const [birthday, setBirthday] = useState('');
     const [birthplace, setBirthPlace] = useState('');
